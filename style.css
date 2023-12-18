@@ -40,3 +40,47 @@ p, h1, h2, h3, h4, h5, h6 {
 .flex {
   display: flex;
 }
+
+.dark-bg0 {
+  background-color: #1F2937;
+}
+
+.light-bg {
+  background-color: #E5E7EB;
+}
+
+.dark-bg1 {
+  background-color: #3882F6;
+}
+
+.fs0 {  /*largest*/
+  font-size: 48px;
+}
+
+.fs1 {
+  font-size: 36px;
+}
+
+.fs2 {
+  font-size: 24px;
+}
+
+.fs3 {
+  font-size: 18px;
+}
+
+.fc-light0 {  /*font color*/
+  color: #F9FAF8;
+}
+
+.fc-dark0 {
+  color: #1F2937;
+}
+
+.fc-medium0 {
+  color: #1F2937;
+}
+
+.fc-medium1 {
+  color: #E5E7EB;
+}
