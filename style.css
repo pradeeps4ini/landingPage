@@ -41,6 +41,10 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+.flex-sb {
+  justify-content: space-between;
+}
+
 .dark-bg0 {
   background-color: #1F2937;
 }
@@ -83,4 +87,34 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .fc-medium1 {
   color: #E5E7EB;
+}
+
+/* Specific classes */
+
+ul > li {
+  list-style: none;
+  padding-left: 50px;
+}
+
+header {
+  padding: 20px 200px 0 200px;
+} 
+
+section .one,
+section .four{
+  padding: 0 200px;
+}
+
+section .two,
+section .three{
+  padding: 0 300px;
+}
+
+section .one { 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.headingDiv {
+  width: 500px;
 }
