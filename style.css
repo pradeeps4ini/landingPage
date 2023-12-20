@@ -35,6 +35,15 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
 /* general classes */
 
 .flex {
@@ -43,6 +52,14 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .flex-sb {
   justify-content: space-between;
+}
+
+.gap20 {
+  gap: 20px;
+}
+
+.gap30 {
+  gap: 30px;
 }
 
 .dark-bg0 {
@@ -54,6 +71,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .dark-bg1 {
+  background-color: #3882F6;
+}
+
+.dark-bg2 {
   background-color: #3882F6;
 }
 
@@ -118,3 +139,67 @@ section .one {
 .headingDiv {
   width: 500px;
 }
+
+h1 {
+  line-height: 1.2;
+}
+
+.headingDiv > * {
+  padding-bottom: 10px;
+}
+
+section .two {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.demo-img > div {
+  width: 150px;
+}
+
+section .three {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote-author {
+  text-align: right;
+}
+
+
+.demo-img img {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.demo-img p {
+  font-size: 16px;
+}
+
+
+section .four {
+  margin: 100px 150px;
+  padding: 30px 100px;
+}
+
+.action-word {
+  font-weight: bold;;
+}
+
+.four button {
+  border: 1px solid #F9FAF8;
+  font-weight: bold;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
